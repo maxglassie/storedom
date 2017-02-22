@@ -12,8 +12,10 @@ gem 'faker'
 gem 'haml-rails'
 gem 'therubyracer'
 gem 'less-rails-bootstrap'
+gem 'bcrypt'
 
 group :development, :test do
+  gem 'byebug'
   gem 'capybara'
   gem 'pry', :require => 'pry'
   gem 'bullet'
