@@ -36,10 +36,8 @@ describe "ActiveRecord Obstacle Course" do
     orders_of_500 = Order.all.select { |order| order.amount == 500 }
     orders_of_200 = Order.all.select { |order| order.amount == 200 }
     # ------------------------------------------------------------
-
-    # ------------------ Using ActiveRecord ----------------------
-    # Solution goes here
-    # ------------------------------------------------------------
+    
+    
 
     # Expectation
     expect(orders_of_500.count).to eq(1)
