@@ -19,6 +19,7 @@ group :development, :test do
   gem 'capybara'
   gem 'pry', :require => 'pry'
   gem 'bullet'
+  gem 'launchy'
 end
 
 group :test do

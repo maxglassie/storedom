@@ -8,8 +8,7 @@ class UsersController < ApplicationController
   end
 
   def create
-    byebug
-    @user = User.save(user_params)
+    @user = User.new(user_params)
   end
 
   private

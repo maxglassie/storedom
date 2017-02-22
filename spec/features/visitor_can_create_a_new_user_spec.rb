@@ -5,6 +5,7 @@ RSpec.feature "Visitor tries to create account" do
     scenario "account creation is successful" do
 
       visit sign_up_path
+      save_and_open_page
 
       fill_in "Name", with: "Maximus"
       fill_in "Email", with: "maximus@seneca.edu"
